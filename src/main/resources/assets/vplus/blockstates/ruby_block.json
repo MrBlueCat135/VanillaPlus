@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : {"model" : "vplus:block/ruby_block"}
+  }
+}
