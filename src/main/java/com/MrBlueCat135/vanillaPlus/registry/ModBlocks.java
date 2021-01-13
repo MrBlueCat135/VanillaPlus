@@ -13,8 +13,10 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(5,6).sounds(BlockSoundGroup.METAL).luminance(15));
+    public static final Block RUBY_ORE = new Block(FabricBlockSettings.of(Material.STONE). breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().strength(3,3).sounds(BlockSoundGroup.STONE));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "ruby_ore"), RUBY_ORE);
     }
 }

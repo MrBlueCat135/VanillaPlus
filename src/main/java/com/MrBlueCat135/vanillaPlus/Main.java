@@ -6,7 +6,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class Main implements ModInitializer {
@@ -19,7 +18,7 @@ public class Main implements ModInitializer {
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                 stacks.add(new ItemStack(ModItems.RUBY));
-                stacks.add(new ItemStack(Items.NETHERITE_HOE));
+                stacks.add(new ItemStack(ModItems.RUBY_ORE));
             }).build();
 
     @Override
