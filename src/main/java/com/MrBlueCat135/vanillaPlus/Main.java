@@ -15,17 +15,17 @@ public class Main implements ModInitializer {
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
             new Identifier(MOD_ID, "modded_item_group"))
-            .icon(() -> new ItemStack(ModItems.RUBY))
+            .icon(() -> new ItemStack(ModItems.RUBY)) //Icon of the creative item tab
             .appendItems(stacks -> {
-                stacks.add(new ItemStack(ModBlocks.RUBY_BLOCK));
-                stacks.add(new ItemStack(ModItems.RUBY));
-                stacks.add(new ItemStack(ModItems.RUBY_ORE));
+                stacks.add(new ItemStack(ModBlocks.RUBY_BLOCK)); //Adds Ruby Block to the custom creative item tab
+                stacks.add(new ItemStack(ModItems.RUBY)); //Adds Ruby to the custom creative item tab
+                stacks.add(new ItemStack(ModItems.RUBY_ORE)); //Adds Ruby Ore to the custom creative item tab
             }).build();
 
     @Override
     public void onInitialize() {
-        ModItems.registerItems();
-        ModBlocks.registerBlocks();
-        ModFeatures.registerFeatures();
+        ModItems.registerItems(); //Registers all items
+        ModBlocks.registerBlocks(); //Registers all blocks
+        ModFeatures.registerFeatures(); //Registers all worldGen features
     }
 }

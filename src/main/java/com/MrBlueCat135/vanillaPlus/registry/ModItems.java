@@ -11,8 +11,10 @@ public class ModItems {
 
     public static final Item RUBY = new Item(new Item.Settings().group(ItemGroup.MISC));
 
-    public static final BlockItem RUBY_BLOCK = new BlockItem(ModBlocks.RUBY_BLOCK, new Item.Settings().group(ItemGroup.MISC));
-    public static final BlockItem RUBY_ORE = new BlockItem(ModBlocks.RUBY_ORE, new Item.Settings().group(ItemGroup.MISC));
+    public static final BlockItem RUBY_BLOCK = new BlockItem(ModBlocks.RUBY_BLOCK, new Item.Settings()
+            .group(ItemGroup.MISC)); //Creative item tab
+    public static final BlockItem RUBY_ORE = new BlockItem(ModBlocks.RUBY_ORE, new Item.Settings()
+            .group(ItemGroup.MISC)); //Creative item tab
 
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "ruby"), RUBY);

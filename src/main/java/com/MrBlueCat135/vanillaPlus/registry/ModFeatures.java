@@ -19,13 +19,13 @@ public class ModFeatures {
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     ModBlocks.RUBY_ORE.getDefaultState(),
-                    9)) //Vein Size
+                    4)) //Vein Size
             .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
                     0, //Bottom offset
                     15, //Minimum Y Level
                     30))) //Maximum Y Level
             .spreadHorizontally()
-            .repeat(20); //Number of veins per chunk
+            .repeat(2); //Number of veins per chunk
 
     public static void registerFeatures(){
         RegistryKey<ConfiguredFeature<?, ?>> rubyOre = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
