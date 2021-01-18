@@ -42,42 +42,42 @@ public class ModBlocks {
             .strength(9,10) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.STONE)); //Sounds made when the block is walked on
     public static final Block COMPRESSED_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(10,12) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block DOUBLE_COMPRESSED_IRON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(12,14) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block COMPRESSED_GOLD_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(14,16) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block DOUBLE_COMPRESSED_GOLD_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(16,18) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block COMPRESSED_DIAMOND_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(18,20) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block DOUBLE_COMPRESSED_DIAMOND_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 2) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 2) //Iron Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(20,1200) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.METAL)); //Sounds made when the block is walked on
     public static final Block COMPRESSED_NETHERITE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 3) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 3) //Diamond Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(60,1200) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.NETHERITE)); //Sounds made when the block is walked on
     public static final Block DOUBLE_COMPRESSED_NETHERITE_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 3) //Stone Pickaxe or higher is needed to get drops
+            .breakByTool(FabricToolTags.PICKAXES, 3) //Diamond Pickaxe or higher is needed to get drops
             .requiresTool() //Cannot be obtained by hand
             .strength(70,1200) //Hardness is related to break time and resistance is blast resistance
             .sounds(BlockSoundGroup.NETHERITE)); //Sounds made when the block is walked on
