@@ -1,6 +1,18 @@
 {
-  "item.vplus.ruby" : "Ruby",
-  "block.vplus.ruby_block" : "Ruby Block",
-  "block.vplus.ruby_ore" : "Ruby Ore",
-  "itemGroup.vplus.modded_item_group" : "Vanilla Plus"
+  "item.vplus.ruby"                                     : "Ruby",
+  "block.vplus.ruby_block"                              : "Ruby Block",
+  "block.vplus.ruby_ore"                                : "Ruby Ore",
+  "block.vplus.compressed_wood_block"                   : "Compressed Wood Block",
+  "block.vplus.double_compressed_wood_block"            : "Double Compressed Wood Block",
+  "block.vplus.compressed_cobblestone_block"            : "Compressed Cobblestone Block",
+  "block.vplus.double_compressed_cobblestone_block"     : "Double Compressed Cobblestone Block",
+  "block.vplus.compressed_iron_block"                   : "Compressed Iron Block",
+  "block.vplus.double_compressed_iron_block"            : "Double Compressed Iron Block",
+  "block.vplus.compressed_gold_block"                   : "Compressed Gold Block",
+  "block.vplus.double_compressed_gold_block"            : "Double Compressed Gold Block",
+  "block.vplus.compressed_diamond_block"                : "Compressed Diamond Block",
+  "block.vplus.double_compressed_diamond_block"         : "Double Compressed Diamond Block",
+  "block.vplus.compressed_netherite_block"              : "Compressed Netherite Block",
+  "block.vplus.double_compressed_netherite_block"       : "Double Compressed Netherite Block",
+  "itemGroup.vplus.modded_item_group"                   : "Vanilla Plus"
 }

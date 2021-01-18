@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : {"model" : "vplus:block/compressed_netherite_block"}
+  }
+}
