@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "vplus:double_compressed_diamond_block"
+        }
+    ],
+    "result": {
+        "item": "vplus:compressed_diamond_block",
+        "count": 9
+    }
+}

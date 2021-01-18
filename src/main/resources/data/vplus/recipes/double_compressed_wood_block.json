@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "vplus:compressed_wood_block"
+        }
+    },
+    "result": {
+        "item": "vplus:double_compressed_wood_block",
+        "count": 1
+    }
+}

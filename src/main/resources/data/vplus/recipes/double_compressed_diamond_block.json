@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "vplus:compressed_diamond_block"
+        }
+    },
+    "result": {
+        "item": "vplus:double_compressed_diamond_block",
+        "count": 1
+    }
+}
