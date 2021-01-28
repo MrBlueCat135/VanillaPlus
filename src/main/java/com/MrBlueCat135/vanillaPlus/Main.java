@@ -1,8 +1,8 @@
 package com.MrBlueCat135.vanillaPlus;
 
+import com.MrBlueCat135.vanillaPlus.registry.ModItems;
 import com.MrBlueCat135.vanillaPlus.registry.ModBlocks;
 import com.MrBlueCat135.vanillaPlus.registry.ModFeatures;
-import com.MrBlueCat135.vanillaPlus.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
