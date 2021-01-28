@@ -19,7 +19,7 @@ public class Main implements ModInitializer {
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(ModItems.RUBY)); //Adds Ruby to the custom creative item tab
                 stacks.add(new ItemStack(ModItems.NETHERITE_NUGGET)); //Adds Netherite Nugget to the custom creative item tab
-                stacks.add(new ItemStack(ModBlocks.RUBY_BLOCK)); //Adds Ruby Block to the custom creative item tab
+                stacks.add(new ItemStack(ModItems.RUBY_BLOCK)); //Adds Ruby Block to the custom creative item tab
                 stacks.add(new ItemStack(ModItems.RUBY_ORE)); //Adds Ruby Ore to the custom creative item tab
                 stacks.add(new ItemStack(ModItems.COMPRESSED_WOOD_BLOCK)); //Adds Compressed Wood Block to the custom creative item tab
                 stacks.add(new ItemStack(ModItems.DOUBLE_COMPRESSED_WOOD_BLOCK)); //Adds Double Compressed Wood Block to the custom creative item tab
